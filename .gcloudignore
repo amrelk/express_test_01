@@ -5,11 +5,8 @@
 .git
 .gitignore
 
-#everything in .gitignore
-#!include .gitignore
-
-# bring dist back even though we don't commit it
-!dist/
+# node dependencies
+node_modules/
 
 # WebStorm config
 .idea/
