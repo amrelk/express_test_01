@@ -1,0 +1,19 @@
+# the file itself
+.gcloudignore
+
+# git stuff
+.git
+.gitignore
+
+#everything in .gitignore
+#!include .gitignore
+
+# bring dist back even though we don't commit it
+!dist/
+
+# WebStorm config
+.idea/
+
+# unnecessary source files
+src/
+webpack.config.js
